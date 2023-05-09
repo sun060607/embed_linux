@@ -1,0 +1,11 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <errno.h>
+
+extern int errno;
+int main(){
+    FILE *fp;
+    if((fp=fopen("text.txt","r"))==NULL){
+        printf("errno=%d\n",errno);
+    }
+}
