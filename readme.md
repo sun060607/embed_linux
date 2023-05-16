@@ -1,3 +1,2 @@
 # System Programming
-
-여기에 정리할 예정..
+리눅스에서 한 자료 정리
